@@ -1,0 +1,90 @@
+body{
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  //background-color:#ffc8c6;
+  background-color:#c9e8ff;
+  color:white;
+}
+
+header{
+  //background-color:#c9e8ff;
+  background-color:#ffc8c6;
+  padding-bottom:0.8em;
+  margin-bottom:3em;
+}
+
+button,input{
+  color:white;
+  background-color:rgb(81, 180, 236);
+  text-decoration:none;
+  padding:1em;
+}
+button:hover,input:hover{
+  color:white;
+  background-color:#ffc8c6;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Baloo Chettan', cursive;
+  font-size:5em;
+  margin-bottom: 0;
+}
+
+h3{
+  text-align:center;
+  margin-top:0;
+}
+
+p {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 0
+}
+ 
+#map{
+  color:black;
+  height: 25em;
+  width: 50%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 10%; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color:#ffc8c6;
+  padding:2em;
+  font-size:0.7em;
+  margin:auto;
+  width: 80%;
+}
+
+/* The Close Button */
+.close_a, .close_u {
+  color: #aaaaaa;
+  float: right;
+  font-size: 2em;
+}
+
+.close_a:hover,
+.close_a:focus,
+.close_u:hover,
+.close_u:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}

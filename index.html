@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>SolSafe</title>
+  <link rel="icon" type="image/png" href="/marker.png">
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0INGua2YO9RdLac-WEoefrvwjropdotw
+&callback=initMap&libraries=places">
+</script>
+
+<header>
+<h1>SolSafe</h1>
+<h3>helping our communities stay safe</h3>
+</header>
+ 
+<div style="float:left;">
+  <input onclick="clearMarkers();" type=button value="Hide Markers">
+  <input onclick="showMarkers();" type=button value="Show Markers">
+  <br>
+  <button style="margin-top:0.8em; margin-bottom:0.8em;" onclick="myFunction()">Alert The Community</button>
+  <br>
+  <p id="demo" style="font-size:0.8em; background-color:#ffc8c6;"></p>
+</div>
+
+<div style="float:right;">
+  <button id="using">Using SolSafe</button>
+  <div id="using_modal" class="modal">
+    <div class="modal-content">
+      <span class="close_u">&times;</span>
+        <p><br>SolSafe strives for a safe environment through community collaboration. Community members can publicly post alarming events occuring around them, ranging from life threatening emergencies to minor. These posts help and inform the community of possible dangers and enable them to be more prepared for dangerous situations. To make a post, click the button 'Alert The Community' on the left and report where and what the incident was.</p>
+    </div>
+  </div>
+  
+ <button id="about">About SolSafe</button>
+  <div id="about_modal" class="modal">
+    <div class="modal-content">
+      <span class="close_a">&times;</span>
+        <p><br>SolSafe was designed as a powerful platform to make our neighborhoods safer. This interactive blog-esque website embodies the collaboration of community members to warn each other of any signs of suspicious activities, accidents, and other dangers. With SolSafe, we can be more prepared and aware of the dangers around us and avoid places that are unsafe. We envision a world of protection for our community!</p>
+    </div>
+  </div>
+</div>
+
+<div id="map"></div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
